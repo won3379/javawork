@@ -1,0 +1,18 @@
+package reference;
+
+public class Subject {
+	//필드
+	private String subjectName;
+	private int scorepoint;
+	
+	///getter,setter
+	//과목이름
+	public void setSubjectName(
+			this.subjectName = subje
+}
+//과목 이름 출력
+	public String getSubjectName{
+		return subjectName;
+	}
+
+	//점수 입력

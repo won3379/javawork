@@ -1,0 +1,6 @@
+package inheritance.person;
+
+//Engineer 가 Person을 상속받음 
+public class Engineer extends Person {
+	
+}

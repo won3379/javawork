@@ -1,0 +1,24 @@
+package reference.subjects;
+
+public class Subject {
+	//필드
+	private String subjectName;
+	private int scorePoint;
+	
+	//getter, setter
+	//과목이름 입력
+	
+	public void setSubjectName() {
+		
+	}
+	
+	//생성자
+	public Student(int studentId, String studentName) {
+		this.studentId =studentId;
+		this.studentName =studentName;
+		korean = new Subject(); //korean 객체 생성
+		
+	}
+}
+
+}

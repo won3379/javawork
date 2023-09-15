@@ -1,0 +1,14 @@
+package subjects;
+
+public class Subject {
+	prviate String subjectName;
+	prviate int subjectName;
+	
+	
+
+}
+
+
+public int getScorePoint() {
+	return scorePoint;
+}
