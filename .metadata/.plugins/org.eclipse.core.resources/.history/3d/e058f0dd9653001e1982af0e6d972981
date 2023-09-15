@@ -1,0 +1,9 @@
+package singleton;
+
+public class StduentMain {
+
+	public static void main(String[] args) {
+		school school 
+	}
+
+}

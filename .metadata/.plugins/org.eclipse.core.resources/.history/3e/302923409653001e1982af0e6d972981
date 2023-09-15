@@ -1,0 +1,16 @@
+package singleton;
+
+public class stduentMain {
+
+	public static void main(String[] args) {
+		School student = School.getInstance();
+		
+		School student1 =School.createNumber();
+		School student2 =School.createNumber();
+		
+		System.out.println(":" + mySonata.getCarNum());
+		System.out.println(":" + yourMorning.getCarNum());
+
+	}
+
+}

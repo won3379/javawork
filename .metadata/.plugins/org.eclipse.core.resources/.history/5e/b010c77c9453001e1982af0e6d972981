@@ -1,0 +1,16 @@
+package singleton;
+
+public class StudentNum {
+		private static StudentNum instance;
+		
+		private StudentNum() {}
+		
+		public static StudentNum getInstance() {
+			if(instance ==null) {
+				instance = new StudentNum();
+				
+				}
+			return instance;
+			}
+		}
+}

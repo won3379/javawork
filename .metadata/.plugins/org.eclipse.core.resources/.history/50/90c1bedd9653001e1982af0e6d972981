@@ -1,0 +1,21 @@
+package singleton;
+
+public class School {
+	private static School instance;
+	
+	private School() {}
+	
+	public static School getInstance() {
+		if(instance ==null) {
+			instance = new School();
+		}
+		return instance;
+	}
+		//자동차 생성 메서드
+	public School createCar() {
+		School schoolNum = new School();
+		return schoolNum;
+			
+		}
+		
+	}
